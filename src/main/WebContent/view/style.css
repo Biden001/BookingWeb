@@ -1,0 +1,226 @@
+body {
+    background: radial-gradient(
+        circle at 50% 50%, 
+	    #1A034C 0%,      
+	    #0E0323 35%,      
+	    #000000 70%,      
+	    #04000F 100%      
+    );
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+/*css for login page*/
+.login-container {
+    width: 350px; /* Tăng chiều rộng để cân đối hơn */
+    margin: auto;
+    padding: 25px; /* Tăng khoảng cách bên trong */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.login-container form {
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.login-container p {
+    text-align: center;
+    margin-top: 15px; /* Tăng khoảng cách trên đoạn văn */
+    color: #555;
+}
+
+.login-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* css for create account page */
+.create-account-container {
+    width: 400px; /* Tăng chiều rộng để cân đối hơn */
+    margin: auto;
+    padding: 30px; /* Tăng khoảng cách bên trong */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.create-account-container h1 {
+    text-align: center;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+.create-account-container p {
+    text-align: center;
+    margin-top: 25px; /* Tăng khoảng cách trên đoạn văn */
+    color: #555;
+}
+.create-account-container form {
+    margin: 0;
+    padding: 0;
+}
+.create-account-container .form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.create-account-container .form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+}
+.create-account-container input[type="text"],
+.create-account-container input[type="password"],
+.create-account-container input[type="email"],
+.create-account-container input[type="tel"],
+.create-account-container .btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+}
+.create-account-container .btn-submit {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.create-account-container .btn-submit:hover {
+    background-color: #218838;
+}
+
+/* CSS cho header */
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.header-bottom a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-bottom a:hover {
+    color: #007bff;
+}
